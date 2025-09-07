@@ -1,0 +1,52 @@
+/* Estilo global */
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Navbar blur */
+.bg-blur {
+  background: rgba(0, 0, 0, 0.7) !important;
+  backdrop-filter: blur(10px);
+}
+
+/* Hero */
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0d1b2a 0%, #1b263b 50%, #000814 100%);
+  color: #fff;
+}
+
+.hero .btn-info {
+  background: linear-gradient(90deg, #00d4ff, #00ffae);
+  border: none;
+}
+
+/* Profile card */
+.profile-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #00d4ff, #00ffae);
+  color: #001219;
+}
+
+/* Cards */
+.project-card {
+  background: linear-gradient(160deg, #0f2027, #203a43, #2c5364);
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
